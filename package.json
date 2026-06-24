@@ -1,0 +1,19 @@
+{
+  "name": "pltr-vwap-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for Sil's private TradingView VWAP cloud + EMA ribbon indicator. No trade execution.",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": { "pltr-vwap-mcp": "src/server.js" },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mathieuc/tradingview": "^3.5.2",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2"
+  }
+}
